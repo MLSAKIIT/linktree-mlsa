@@ -38,7 +38,7 @@ const LeftPanel = () => {
         <div className="">
           <div className="flex items-center gap-3 mt-6 ">
             <a
-              href={``}
+              href={`https://crypto.mlsakiit.com/`}
               className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800 "
             >
               {siteConfig.location}
