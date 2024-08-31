@@ -165,7 +165,7 @@ const GridItems: GridItemInterface[] = [
     // buttonSecondaryText: "",
     color: "#1DA1F2",
     // description:
-    // ".",
+    // "",
   },
 
 

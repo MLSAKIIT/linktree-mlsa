@@ -47,7 +47,7 @@ const LeftPanel = () => {
               href={`https://mlsakiit.com`}
               className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-200 dark:border-neutral-800 "
             >
-              Visit Oficial Website
+              Oficial Website
             </a>
           </div>
         </div>
