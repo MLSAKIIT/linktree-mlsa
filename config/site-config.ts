@@ -95,6 +95,8 @@ const GridItems: GridItemInterface[] = [
     // ".",
   },
 
+  
+
   {
     layout: "2x1",
     type: "social",
@@ -152,6 +154,19 @@ const GridItems: GridItemInterface[] = [
     // username: "", 
   },
 
+  {
+    layout: "2x1",
+    type: "social",
+    title: "Youtube",
+    // icon: "twitter",
+    username: "@kiitkaksha",
+    // buttonTitle: "Follow",
+    buttonLink: "https://www.youtube.com/c/KIITKAKSHA",
+    // buttonSecondaryText: "",
+    color: "#1DA1F2",
+    // description:
+    // ".",
+  },
 
 
 
