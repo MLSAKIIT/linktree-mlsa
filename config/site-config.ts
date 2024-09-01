@@ -98,16 +98,16 @@ const GridItems: GridItemInterface[] = [
   
 
   {
-    layout: "2x1",
+    layout: "2x2",
     type: "social",
     title: "Whatsapp Channel",
-    // icon: "",
+    icon: "whatsapp",
     // username: "@",
-    // buttonTitle: "",
+    buttonTitle: "Join channel",
     buttonLink: "https://www.whatsapp.com/channel/0029VaDdytG0gcfRDXmxTG1w",
     // buttonSecondaryText: "",
-    color: "#1DA1F2",
-    // description:
+    color: "green",
+    description:"Join the mlsakiit whatsapp channel for regular updates and information related to events and recruitment.",
   },
 
   {
@@ -158,7 +158,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x1",
     type: "social",
     title: "Youtube",
-    // icon: "twitter",
+    // icon: "Youtube",
     username: "@kiitkaksha",
     // buttonTitle: "Follow",
     buttonLink: "https://www.youtube.com/c/KIITKAKSHA",
