@@ -29,17 +29,17 @@ export interface GridItemInterface {
 
 const GridItems: GridItemInterface[] = [
   {
-    layout: "2x1",
+    layout: "2x2",
     type: "social",
     title: "Github",
-    // icon: "github",
+    icon: "github",
     username: "@MLSAKIIT",
-    // buttonTitle: "",
+    buttonTitle: "Follow",
     // buttonSecondaryText: "",
     buttonLink: "https://github.com/mlsakiit",
-    color: "#1DA1F2",
-    description:
-""  },
+    color: "#000",
+    description: "",
+  },
 
   {
     layout: "2x1",
@@ -51,17 +51,15 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://mlsakiit.com",
     // buttonSecondaryText: "",
     color: "#1DA1F2",
-    description:
-""  },
+    description: "",
+  },
   {
     layout: "2x1",
     type: "social",
     title: "Linkedin",
     // icon:"linkedin",
-
     username: "@msckiit",
-    description:
-      "",
+    description: "",
     color: "#1DA1F2",
     // buttonTitle: "",
     buttonLink: "https://www.linkedin.com/company/msckiit/mycompany/",
@@ -72,10 +70,9 @@ const GridItems: GridItemInterface[] = [
     layout: "1x2",
     type: "social",
     title: "Instagram",
-    // icon: "",
+    // icon: "Instagram",
     username: "@mlsakiit",
     // buttonTitle: "",
-
     // buttonSecondaryText: "",
     color: "#1DA1F2",
     buttonLink: "https://www.instagram.com/mlsakiit",
@@ -85,7 +82,7 @@ const GridItems: GridItemInterface[] = [
     layout: "1x2",
     type: "social",
     title: "Twitter",
-    // icon: "twitter",
+    icon: "twitter",
     username: "@mlsakiit",
     // buttonTitle: "Follow",
     buttonLink: "https://x.com/mlsakiit",
@@ -94,8 +91,6 @@ const GridItems: GridItemInterface[] = [
     // description:
     // ".",
   },
-
-  
 
   {
     layout: "2x2",
@@ -106,8 +101,9 @@ const GridItems: GridItemInterface[] = [
     buttonTitle: "Join channel",
     buttonLink: "https://www.whatsapp.com/channel/0029VaDdytG0gcfRDXmxTG1w",
     // buttonSecondaryText: "",
-    color: "green",
-    description:"Join the mlsakiit whatsapp channel for regular updates and information related to events and recruitment.",
+    color: "#40c351",
+    description:
+      "Join the mlsakiit whatsapp channel for regular updates and information related to events and recruitment.",
   },
 
   {
@@ -125,17 +121,16 @@ const GridItems: GridItemInterface[] = [
   },
 
   {
-    layout: "2x1",
+    layout: "2x2",
     type: "social",
     title: "Discord",
-    // icon: "",
+    icon: "discord",
     // username: "",
-    // buttonTitle: "",
+    buttonTitle: "Join",
     buttonLink: "https://discord.com/invite/BW28wXGfsZ",
     // buttonSecondaryText: "",
     color: "#1DA1F2",
-    description:
-      "",
+    description: "",
     // username: "",
   },
 
@@ -149,28 +144,23 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://medium.com/msackiit",
     // buttonSecondaryText: "",
     color: "#1DA1F2",
-    description:
-      "",
-    // username: "", 
+    description: "",
+    // username: "",
   },
 
   {
-    layout: "2x1",
+    layout: "2x2",
     type: "social",
     title: "Youtube",
-    // icon: "Youtube",
+    icon: "youtube",
     username: "@kiitkaksha",
-    // buttonTitle: "Follow",
+    buttonTitle: "Subscribe",
     buttonLink: "https://www.youtube.com/c/KIITKAKSHA",
     // buttonSecondaryText: "",
-    color: "#1DA1F2",
+    color: "red",
     // description:
     // "",
   },
-
-
-
-
 ];
 
 export const siteConfig = {
