@@ -29,7 +29,7 @@ export interface GridItemInterface {
 
 const GridItems: GridItemInterface[] = [
   {
-    layout: "2x2",
+    layout: "1x2",
     type: "social",
     title: "Github",
     icon: "github",
@@ -41,20 +41,9 @@ const GridItems: GridItemInterface[] = [
     description: "",
   },
 
+  
   {
-    layout: "2x1",
-    type: "social",
-    title: "Official Website",
-    // icon: "",
-    username: "mlsakiit.com",
-    // buttonTitle: "",
-    buttonLink: "https://mlsakiit.com",
-    // buttonSecondaryText: "",
-    color: "#1DA1F2",
-    description: "",
-  },
-  {
-    layout: "2x2",
+    layout: "1x2",
     type: "social",
     title: "Linkedin",
     icon:"Linkedin",
@@ -72,9 +61,9 @@ const GridItems: GridItemInterface[] = [
     title: "Instagram",
     icon: "Instagram",
     username: "@mlsakiit",
-    // buttonTitle: "",
+    buttonTitle: "Follow",
     // buttonSecondaryText: "",
-    color: "transparent",
+    color: "#f24d58",
     buttonLink: "https://www.instagram.com/mlsakiit",
     // description: ".",
   },
@@ -84,7 +73,7 @@ const GridItems: GridItemInterface[] = [
     title: "Twitter",
     icon: "twitter",
     username: "@mlsakiit",
-    // buttonTitle: "Follow",
+    buttonTitle: "Follow",
     buttonLink: "https://x.com/mlsakiit",
     // buttonSecondaryText: "",
     color: "#1DA1F2",
@@ -95,7 +84,7 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x2",
     type: "social",
-    title: "Whatsapp Channel",
+    title: "Whatsapp",
     icon: "whatsapp",
     // username: "@",
     buttonTitle: "Join channel",
@@ -107,21 +96,34 @@ const GridItems: GridItemInterface[] = [
   },
 
   {
-    layout: "2x1",
+    layout: "1x2",
     type: "social",
-    title: "Telegram Channel",
-    // icon: "",
+    title: "Telegram",
+    icon: "telegram",
     // icon: "",
     // username: "@",
-    // buttonTitle: "",
+    buttonTitle: "Join Channel",
     buttonLink: "https://t.me/+MSB0yIX9ueNhZjBl",
     // buttonSecondaryText: "",
-    color: "#1DA1F2",
+    color: "#29b6f6",
     // description: "",
   },
 
+  // {
+  //   layout: "1x2",
+  //   type: "social",
+  //   title: "Website",
+  //   // icon: "",
+  //   username: "mlsakiit.com",
+  //   buttonTitle: "Visit Website",
+  //   buttonLink: "https://mlsakiit.com",
+  //   // buttonSecondaryText: "",
+  //   color: "#1DA1F2",
+  //   description: "",
+  // },
+
   {
-    layout: "2x2",
+    layout: "1x2",
     type: "social",
     title: "Discord",
     icon: "discord",

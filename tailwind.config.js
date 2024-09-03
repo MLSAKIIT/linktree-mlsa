@@ -18,9 +18,11 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-sfpro)"],
       },
+   
       backgroundImage: {
         "light-pattern": "url('/light-pattern.svg')",
         "dark-pattern": "url('/dark-pattern.svg')",
+        'orange-gradient': 'linear-gradient(90deg, #FFA726, #FB8C00, #EF6C00)',
       },
       backgroundSize: {
         auto: "auto",
